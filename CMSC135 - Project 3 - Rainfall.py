@@ -21,7 +21,13 @@
 # places.
 
 
-# declare _MONTHS_PER_YEAR named variable
-_years = input(print("Please enter the number of years : "))
+# declare _number_years variable as the amount of years that is being measured
+# and fill with user input
+_number_years = input(print("Please enter the number of years : "))
+
+# declare _MONTHS_PER_YEAR named constant as the number of months are per year
 _MONTHS_PER_YEAR =  12
+
+# declare the _number_months variable and
+# calculate the number of months that have passed
 _number_months = _years*_MONTHS_PER_YEAR
