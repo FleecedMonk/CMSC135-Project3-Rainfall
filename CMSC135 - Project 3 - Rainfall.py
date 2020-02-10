@@ -20,6 +20,8 @@
 # The program should round the rainfall average to a maximum of two decimal
 # places.
 
+
+# declare _MONTHS_PER_YEAR named variable
 _years = input(print("Please enter the number of years : "))
-_number_months = _years*12
-print(_number_months)
+_MONTHS_PER_YEAR =  12
+_number_months = _years*_MONTHS_PER_YEAR
